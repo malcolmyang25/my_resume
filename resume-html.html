@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malcolm Yang - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .resume-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+        .contact-info span {
+            margin: 0 10px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .section-header h2 {
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-left: 10px;
+            color: #2c3e50;
+            flex-grow: 1;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+        }
+        .section-icon {
+            font-size: 24px;
+            color: #2c3e50;
+        }
+        .details-container {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .left-column {
+            width: 25%;
+            padding-right: 20px;
+        }
+        .right-column {
+            width: 75%;
+        }
+        .job-title, .education-title {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .company, .school {
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        .date {
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+        .job-description, .education-description {
+            margin-bottom: 10px;
+        }
+        .company-description {
+            font-style: italic;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+        ul li {
+            margin-bottom: 5px;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .skill-item {
+            background-color: #ecf0f1;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 14px;
+        }
+        @media (max-width: 768px) {
+            .details-container {
+                flex-direction: column;
+            }
+            .left-column, .right-column {
+                width: 100%;
+                padding-right: 0;
+            }
+            .left-column {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="header">
+            <h1>MALCOLM YANG</h1>
+            <div class="contact-info">
+                <span>Sydney, Australia</span>
+                <span>0451 310 225</span>
+                <span>mr.malcolmyang@gmail.com</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">👤</span>
+                <h2>Profile</h2>
+            </div>
+            <p>6 years of practical experience in data engineer for end-to-end solution development.</p>
+            <p>Highly skilled data engineer with a strong analytics mindset to design, automate, and optimise data pipelines and models on cloud platform, enabling data-driven decision making.</p>
+            <p>Strong hands-on experience building and maintaining data pipelines in Python and DBT. Proficiency with cloud-based data warehousing technologies, and designing and implementing data models that are optimised for analytical queries and reporting, ensuring data is easy to understand and use by analysts.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">📱</span>
+                <h2>Details</h2>
+            </div>
+            <p>Sydney, Australia</p>
+            <p>0451 310 225</p>
+            <p>mr.malcolmyang@gmail.com</p>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">🔗</span>
+                <h2>Links</h2>
+            </div>
+            <p>GitHub (id: malcolmyang25)</p>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">💼</span>
+                <h2>Employment History</h2>
+            </div>
+
+            <div class="details-container">
+                <div class="left-column">
+                    <div class="job-title">Data Engineer</div>
+                    <div class="company">Endeavour Group</div>
+                    <div class="date">April 2022 - Present</div>
+                </div>
+                <div class="right-column">
+                    <div class="company-description">Endeavour Group Ltd is an Australian alcoholic drinks retailer, hotel operator, and poker machine operator that was spun off from Woolworths Group in 2021.</div>
+                    <div class="job-description">As the Data Engineer of the Group Data team, my role includes the following duties:</div>
+                    <ul>
+                        <li><strong>Analysis</strong>
+                            <ul>
+                                <li>Work with squad members and business SMEs to understand the requirements including business problem or opportunity, data feed/pipeline requirements, model design, features and/or reporting requirements</li>
+                                <li>Contribute to documentation of requirements and user stories in Jira/Confluence, as required</li>
+                            </ul>
+                        </li>
+                        <li><strong>Delivery</strong>
+                            <ul>
+                                <li>Build and deploy data pipelines required for the relevant initiative - could be to support analytics, reporting, machine learning, data migration and/or data archiving requirements</li>
+                                <li>Document relevant information required for knowledge sharing across the team and for operational support handover</li>
+                                <li>Knowledge sharing amongst the data engineering chapter and squad team members</li>
+                                <li>Collaborate with team and stakeholders to ensure successful delivery</li>
+                                <li>Contribute and adhere to technology standards, data governance & privacy policies and IT security standards</li>
+                                <li>Adhere to corporate governance policies</li>
+                                <li>Attend/contribute to squad agile ceremonies (e.g. standups, sprint planning etc)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Operations</strong>
+                            <ul>
+                                <li>Contribute and assist with handover documentation to by used by operations team for new builds/enhancements</li>
+                                <li>3rd level support for incidents relating to productionised data pipelines and/or ML models</li>
+                                <li>Comply with the change process and provide inputs, as required, and attend CAB, where required</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="details-container">
+                <div class="left-column">
+                    <div class="job-title">Campaign Analyst/Developer</div>
+                    <div class="company">WooliesX</div>
+                    <div class="date">July 2021 - April 2022</div>
+                </div>
+                <div class="right-column">
+                    <div class="company-description">WooliesX is part of Woolworth Group, connecting technology, data and insights to help make our customers' shopping experience.</div>
+                    <div class="job-description">As the Campaign Analyst of the Marketing Campaign Automation team, my role includes the following duties:</div>
+                    <ul>
+                        <li>Design, build, implement and manage ETL workflow in Airflow</li>
+                        <li>Embedding data governance into core operating processes, enabling accurate data-driven decision-making, to ensure high data quality in Redshift and BigQuery</li>
+                        <li>Drive ongoing operational efficiencies through process optimization, automation and business rules to reduce operating costs with end-to-end BI reporting on Campaign execution and performance</li>
+                        <li>Support product marketing and planning with raising and tracking of key process items</li>
+                        <li>Relationship management of campaign stakeholders, ensuring the delivery of on time/accurate information and analytics, and provide ad-hoc data support for campaign stakeholders</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="details-container">
+                <div class="left-column">
+                    <div class="job-title">BI Developer</div>
+                    <div class="company">Hume Community Housing</div>
+                    <div class="date">August 2018 - July 2021</div>
+                </div>
+                <div class="right-column">
+                    <div class="company-description">Hume Community Housing is a Tier-1 government funding Community Housing Provider in Australia, managing 6000+ properties across New South Wales.</div>
+                    <div class="job-description">As the data analyst, my role includes the following duties:</div>
+                    <ul>
+                        <li>Works professionally to understand business questions or requests and be able to suggest proper BI solution which is measurable and scalable</li>
+                        <li>Designed, developed, and performed user acceptance testing to ensure higher levels of data quality and data integrity, developed, and performed user acceptance testing to ensure higher levels of data quality and data integrity.</li>
+                        <li>Design and develop BI Solutions, Data warehouse & data model using ETL tools (ADF), OLAP, and dashboard (Tableau)</li>
+                        <li>Effectively coded database changes and alterations based on finance and operation specifications, including SQL programming (functions, store procedure, trigger, cursor), XML.</li>
+                        <li>Performed in-depth data analyses with large datasets (JSON, XML) from hybrid cloud structure via Python and Transact-SQL.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="details-container">
+                <div class="left-column">
+                    <div class="job-title">Data Analyst</div>
+                    <div class="company">HKA</div>
+                    <div class="date">July 2017 - July 2018</div>
+                </div>
+                <div class="right-column">
+                    <div class="company-description">HKA is one of the world's leading privately owned, independent providers of consulting, expert and advisory services for construction, manufacturing from the UK.</div>
+                    <div class="job-description">As the data analyst, my role includes the following duties:</div>
+                    <ul>
+                        <li>Effectively maintained Stakeholder engagement between cross-functional teams such as management consultants and external vendors to understand the requirements.</li>
+                        <li>Translate business requirements into functional requirements documentation, use cases, user stories, workflow/process diagrams, and reporting.</li>
+                        <li>Conducted various levels of testing including functional testing, UAT, and performance validation.</li>
+                        <li>Designed and deployed reporting and data visualization tools, including Tableau, Power BI.</li>
+                        <li>Developed reports with KPIs, trend analysis, and forecasting models to visualize performance parameters.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">🎓</span>
+                <h2>Education</h2>
+            </div>
+            <div class="details-container">
+                <div class="left-column">
+                    <div class="education-title">Master of Information Technology</div>
+                    <div class="school">University of Technology Sydney</div>
+                    <div class="date">February 2016 - November 2017</div>
+                </div>
+                <div class="right-column">
+                    <div class="education-description">Major: Data Analytics</div>
+                </div>
+            </div>
+
+            <div class="details-container">
+                <div class="left-column">
+                    <div class="education-title">Bachelor of Business Administration</div>
+                    <div class="school">East China University of Science and Technology</div>
+                    <div class="date">September 2011 - June 2015</div>
+                </div>
+                <div class="right-column">
+                    <div class="education-description">Shanghai, China</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">🛠️</span>
+                <h2>Skills</h2>
+            </div>
+            <ul class="skills-list">
+                <li class="skill-item">Data Warehousing (Redshift/BigQuery)</li>
+                <li class="skill-item">ETL\ELT (ADF\Airflow\Databricks)</li>
+                <li class="skill-item">Cloud Data Platform (GCS/Azure)</li>
+                <li class="skill-item">BI reporting and visualization</li>
+                <li class="skill-item">DBT</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
